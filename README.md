@@ -15,6 +15,7 @@ NB: takes ~10 hours to saturate validation metric on 4090 GPU assuming there is 
 | from scratch, patch transformer | 0.30 |
 | whisper-base, take encoder, downsample pos encoding | 0.35 |
 | 2d cnns, e.g. convnext_tiny | 0.45 | 
+| add resize from orig resolution to (224, 224) | 0.55 |
 | transformers, e.g. maxvit (works best) | 0.64 | 
 | +5 models ensemble | 0.665 | 
 | +query expansion | 0.680 |
