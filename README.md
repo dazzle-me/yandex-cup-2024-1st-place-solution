@@ -10,7 +10,7 @@ To train a model:
 # Results
 | model | approx score LB | 
 | --- | --- | 
-| from sratch, patch transformer | 0.30 |
+| from scratch, patch transformer | 0.30 |
 | whisper-base, take encoder, downsample pos encoding | 0.35 |
 | 2d cnns, e.g. convnext_tiny | 0.45 | 
 | transformers, e.g. maxvit (works best) | 0.64 | 
