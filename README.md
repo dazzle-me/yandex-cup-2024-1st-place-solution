@@ -5,7 +5,7 @@ The model takes in (50, 84) image, resizes it to (224, 224), applies mean/std no
 
 # Repro
 To train a model:
-```train.py --config config_1.py```, 
+```python3 train.py --config config_1.py```, 
 
 NB: takes ~10 hours to saturate validation metric on 4090 GPU assuming there is no data loading bottleneck (almost any CPU would do)
 
